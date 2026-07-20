@@ -1,0 +1,61 @@
+head>
+    <!-- cherset属性：ファイルの文字コード -->
+    <meta charset="UTF-8">
+
+<!-- 描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  name=author:ページ作成者の指定 -->
+  <meta name="author" content="Kento Hisafuji">
+  <meta name="keywords" content="html", css, javascript">
+
+  <script src="./js/main.js" defer></script>
+    <!-- title：ページタイトル -->
+    <title>木曜三限 11週目　情報リテラシー</title>
+</head>
+<body>
+    <header>
+    <!-- h1-6:見出し、章・節・項のような文章構造に合わせたような見出し -->
+    <h1>大学生のための情報・デジタルリテラシー</h1>
+    <nav>
+    ホーム
+    タグリファレンス
+    お問い合わせ
+    </nav>
+
+</header>
+
+<main>
+    <section>
+        <h2>じゃんけん</h2>
+
+            <!-- HTMLからjavascriptの関数を実行する -->
+            <!-- ボタンとonclick属性を使うのが一番簡単 -->
+            <button onclick="janken(0)">ぐー</button>
+            <button onclick="janken(1)">ちょき</button>
+            <button onclick="janken(2)">ぱー</button>
+
+            <!-- じゃんけんの結果を表示 (Javascript側から操作する) -->
+                <p id="result">ここにじゃんけんの結果が表示されます。</p>
+            </section>            
+</main>
+
+<footer>
+    Copyright &copy; Kento Hisafuji, All Rights Reserved
+</footer>
+
+<script>
+   //alert("hello world")
+   //const hogehoge = document.querySelector("p");
+   //hogehoge.textContext = "hello world!!";
+   //console.log("hello world !!")
+</script>
+
+<!--<script src="./js/main.js"></script> -->
+
+
+</body>
+
+</html>
+
+    
